@@ -1,0 +1,19 @@
+[package]
+name = "peaceengine"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "A modular, embeddable graphics and application engine."
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "peaceengine"
+path = "src/lib.rs"
+
+[features]
+default = ["software-renderer"]
+software-renderer = []
+
+[dependencies]
+
+[dev-dependencies]
